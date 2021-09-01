@@ -1,0 +1,1 @@
+docker-compose up -d && docker exec -it vue-dev sh

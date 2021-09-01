@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    vue-dev:
+        build: .
+        container_name: "vue-dev"
+        stdin_open: true
+        tty: true
+        volumes:
+            - ./code:/code
+        ports:
+            - "8080:8080"
