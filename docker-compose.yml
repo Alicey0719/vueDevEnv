@@ -8,5 +8,6 @@ services:
         tty: true
         volumes:
             - ./code:/code
+        working_dir: /code
         ports:
             - "8080:8080"
